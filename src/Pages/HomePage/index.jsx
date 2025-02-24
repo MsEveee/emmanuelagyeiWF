@@ -5,6 +5,7 @@ import Products from "../../components/HomePage/Products";
 import Contact from "../../components/HomePage/Contact";
 import TeamM from "../../components/HomePage/TeamM";
 import Navbar from "../../Shared/Navbar";
+import Footer from "../../Shared/Footer";
 
 const HomePage = () => {
   return (
@@ -13,8 +14,8 @@ const HomePage = () => {
       <Hero />
       <About />
       <Products />
-      <Contact />
       <TeamM />
+      <Footer />
     </div>
   );
 };
