@@ -40,12 +40,12 @@ const ContactUs = () => {
             Partner with Us Today
           </h1>
           <p className="mb-6 text-sm leading-relaxed text-gray-700 md:text-lg">
-            Bidigreen Ghana Limited invites you to be part of our journey toward
-            a greener future. Whether you are a business looking for sustainable
-            charcoal solutions or an advocate for environmental change, we are
-            here to collaborate and grow together. Contact us today to learn
-            more about our products, services, and impact. Together, let’s turn
-            waste into wealth and light up the world sustainably.
+            At EA Welding & Fabrication, we believe in the power of strong
+            partnerships. Whether you're looking for custom metal fabrication,
+            industrial welding solutions, or a trusted collaborator for your
+            next project, we’re here to deliver excellence. Have a project in
+            mind? Let’s discuss how we can bring your vision to life with
+            precision and quality craftsmanship.
           </p>
         </div>
 
@@ -137,7 +137,7 @@ const ContactUs = () => {
           <div>
             <h2 className="text-lg md:text-xl font-semibold">Email:</h2>
             <p className="text-sm md:text-base">
-            eaweldingandfabrication@email.com
+              eaweldingandfabrication@email.com
             </p>
           </div>
         </div>
