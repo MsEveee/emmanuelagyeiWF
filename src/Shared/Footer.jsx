@@ -21,32 +21,25 @@ const Footer = ({ bgcolor }) => {
               href="mailto:bidigreenghanalimited@gmail.com"
               className="text-orange-500 hover:underline"
             >
-              eaweldingandfabrication@gmail.com
+              emmanuelagyeiotuo@gmail.com
             </a>
           </p>
           <p>
             Phone:
             <br />
             <a
-              href="tel:+2335589765"
+              href="tel"
               className="text-orange-500 hover:underline"
             >
-              +233 24 798 9448
+              +233 247-989448
             </a>
-            {/* <br />
+            <br />
             <a
               href="tel:+233506078654"
               className="text-orange-500 hover:underline"
             >
-              +233 506-075866
+              +233 200-409464
             </a>
-            <br />
-            <a
-              href="tel:+2335416534567"
-              className="text-orange-500 hover:underline"
-            >
-              +233 541-655694
-            </a> */}
           </p>
         </div>
 

@@ -13,9 +13,9 @@ const ContactUs = () => {
     emailjs
       .sendForm(
         "service_mrauy3h",
-        "template_oabaojm",
+        "template_kp7mmhn",
         formRef.current,
-        "l0wonrdhjhCjNRaZcGJs-"
+        "au2w0jUnz4Oke9625"
       )
       .then(
         (result) => {
@@ -108,8 +108,7 @@ const ContactUs = () => {
           <div>
             <h2 className="text-lg md:text-xl font-semibold">Locate Us:</h2>
             <p className="text-sm md:text-base">
-              Plot, No. 89, Blk A. , <br /> Nkrumah - Ashanti <br />{" "}
-              AE-0664-85010
+            Mampong Ashanti Warakese
             </p>
           </div>
         </div>
@@ -121,11 +120,10 @@ const ContactUs = () => {
           <div>
             <h2 className="text-lg md:text-xl font-semibold">Call Us:</h2>
             <p className="text-sm md:text-base">
-              +233 24 798 9448
+              +233 247-989448
+              
               <br />
-              {/* +233 506-0758
-              <br />
-              +233 553-396566 */}
+              +233 200-409464
             </p>
           </div>
         </div>
@@ -137,7 +135,7 @@ const ContactUs = () => {
           <div>
             <h2 className="text-lg md:text-xl font-semibold">Email:</h2>
             <p className="text-sm md:text-base">
-              eaweldingandfabrication@email.com
+            emmanuelagyeiotuo@gmail.com 
             </p>
           </div>
         </div>

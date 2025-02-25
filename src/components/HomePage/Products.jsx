@@ -1,6 +1,7 @@
 import peppermill from "../../assets/images/peppermill.jpg";
 import pot from "../../assets/images/pot.jpg";
 import stove from "../../assets/images/stove.jpg";
+import fufumachine from "../../assets/images/fufumachine.jpg"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
@@ -25,8 +26,8 @@ const Products = () => {
             title: "For personal and commercial use"
         },
         {
-            image: stove,
-            name: "Local Double Stove",
+            image: fufumachine,
+            name: "Local Fufu Machine",
             title: "For personal and commercial use"
         },
         
