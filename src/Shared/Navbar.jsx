@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link as ScrollLink } from "react-scroll";
+import { Link } from "react-router-dom"; // Import React Router Link
 import menuIcon from "../assets/images/menu.svg"; // Renamed for clarity
 
 const Navbar = () => {
@@ -13,7 +14,7 @@ const Navbar = () => {
     { to: "about", label: "About", type: "scroll" },
     { to: "products", label: "Products", type: "scroll" },
     { to: "team", label: "Team", type: "scroll" },
-    { to: "/contact", label: "Contact", type: "link" }, // External navigation
+    { to: "/contact", label: "Contact", type: "router-link" }, // Use React Router Link
   ];
 
   useEffect(() => {
@@ -34,8 +35,8 @@ const Navbar = () => {
       <div className="flex items-center justify-between h-16 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* Logo Section */}
         <div className="text-xl font-bold flex">
-          <a href="/" className="text-[#A93A01]">E.A Welding</a>
-          <a href="/"> & Fabrication</a>
+          <Link to="/" className="text-[#A93A01]">E.A Welding</Link>
+          <Link to="/"> & Fabrication</Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -66,6 +67,14 @@ const Navbar = () => {
                   >
                     {link.label}
                   </ScrollLink>
+                ) : link.type === "router-link" ? (
+                  <Link
+                    to={link.to}
+                    className="text-lg font-medium text-gray-700 hover:text-blue-400 transition duration-200 cursor-pointer"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
                 ) : (
                   <a
                     href={link.to}

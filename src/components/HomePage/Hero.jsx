@@ -5,10 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
   const navigate = useNavigate();
-  const texts = [
-    "Welcome to EA Welding & Fabrication!",
-
-  ];
+  const texts = ["Welcome to EA Welding & Fabrication!"];
 
   const textRefs = useRef([]);
 
@@ -53,8 +50,18 @@ const Hero = () => {
           ))}
         </div>
         <div className="text-white text-2xl">
-          <h3>we specialize in high-quality welding and custom metal fabrication services. </h3>
+          <h3>
+            we specialize in high-quality welding and custom metal fabrication
+            services.{" "}
+          </h3>
         </div>
+
+        <button
+          className="mt-6 px-6 py-3 bg-orange-500 text-white text-lg md:text-xl font-semibold rounded-lg shadow-lg hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-500"
+          onClick={() => navigate("/contact")}
+        >
+          Book Us
+        </button>
       </div>
     </div>
   );
