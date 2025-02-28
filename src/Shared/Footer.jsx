@@ -48,7 +48,7 @@ const Footer = ({ bgcolor }) => {
           <ul className="space-y-2">
             <li>
               <Link
-                to="/privacy-policy"
+                to=""
                 className="text-orange-500 hover:underline"
               >
                 Privacy Policy
@@ -56,19 +56,19 @@ const Footer = ({ bgcolor }) => {
             </li>
             <li>
               <Link
-                to="/terms-conditions"
+                to=""
                 className="text-orange-500 hover:underline"
               >
                 Terms and Conditions
               </Link>
             </li>
             <li>
-              <Link to="/help" className="text-orange-500 hover:underline">
+              <Link to="" className="text-orange-500 hover:underline">
                 Help
               </Link>
             </li>
             <li>
-              <Link to="/faq" className="text-orange-500 hover:underline">
+              <Link to="" className="text-orange-500 hover:underline">
                 FAQ
               </Link>
             </li>
